@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTE BELA ARTESANATOS</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="cont_logo">
+            <img src="imagens/logo.png" alt="">
+        </div>
+        
+        
+        <footer class="footer_header">
+            <nav class="cont_nav_but">
+                <button onmouseenter="valores_entrar()" onmouseout="valores_sair()">Valores</button> <span class="barra">|</span>
+                <button onmouseenter="missao_entrar()" onmouseout="missao_sair()">Missão</button> <span class="barra">|</span>
+                <button onmouseenter="produtos_entrar()" onmouseout="produtos_sair()">Produtos</button>
+            </nav>
+            <h1>ARTE BELA ARTESANATOS</h1>
+        </footer>
+    </header>
+    <div id="res"></div>
+    <div class="container_select">
+        <select id="select">
+            <option class="option" value="asc">Ordenar Por Menor Preço</option>
+            <option class="option" value="desc">Ordenar Por Maior Preço</option>
+        </select>
+    </div>
+    
+    <main>
+        <section id="itemsContainer" class="container_principal">
+            <div class="container_conteudo" data-price="10">
+                <img class="img_produto" src="imagens/casahobit1.png" alt="">
+                <h2>Casa Hobbit</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 10,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="10">
+                <img class="img_produto" src="imagens/chale2.png" alt="">
+                <h2>chalé</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 10,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="10">
+                <img class="img_produto" src="imagens/duendeabobora3.png" alt="">
+                <h2></h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 10,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="10">
+                <img class="img_produto" src="imagens/duendepanela4.png" alt="">
+                <h2>Mandrágora Oficinárum</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 10,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="10">
+                <img class="img_produto" src="imagens/mandragora1_5.png" alt="">
+                <h2>Mandrágora Oficinárum</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 10,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="10">
+                <img class="img_produto" src="imagens/mandragora2_6.png" alt="">
+                <h2>Mandrágora Oficinárum</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 10,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="10">
+                <img class="img_produto" src="imagens/mandragora3_7.png" alt="">
+                <h2>Mandrágora Oficinárum</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 10,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="10">
+                <img class="img_produto" src="imagens/torre8.png" alt="">
+                <h2>Mandrágora Oficinárum</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 10,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="10">
+                <img class="img_produto" src="imagens/troncope9.png" alt="">
+                <h2>Mandrágora Oficinárum</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 10,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="10">
+                <img class="img_produto" src="imagens/petalasamarelas10.png" alt="">
+                <h2>Mandrágora Oficinárum</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 10,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="10">
+                <img class="img_produto" src="imagens/chaletelhamadeira11.png" alt="">
+                <h2>Mandrágora Oficinárum</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 10,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="20">
+                <img class="img_produto" src="imagens/casaHagrid12.png" alt="">
+                <h2>Mandrágora Oficinárum</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 20,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="20">
+                <img class="img_produto" src="imagens/casacogumelo13.png" alt="">
+                <h2>Mandrágora Oficinárum</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 20,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+
+            <div class="container_conteudo" data-price="20">
+                <img class="img_produto" src="imagens/casa4janelas14.png" alt="">
+                <h2>Mandrágora Oficinárum</h2>
+                <p class="preco_ant">De: R$ 20,00</p>
+                <p class="preco_novo">Por: R$ 20,00</p>
+                <button class="bt_comprar">Comprar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><p>&copy; 2024 ARTE BELA ARTESANATOS. Todos os direitos reservados.</p></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

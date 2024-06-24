@@ -1,0 +1,591 @@
+@charset "UTF-8";
+
+/* ====================CAPA TELA PEQUENA==================== */
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    @font-face {
+        font-family: 'fonte';
+        src: url(../imagens/Chicago.otf) format('opentype'),format('truetype');
+    }
+
+    html {
+        height: 100%;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f8f8f8;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    header {
+        background-color: #333;   
+    }
+    .cont_logo {   /* container logo */
+        display: flex;
+        justify-content: center;
+    }
+    .cont_logo img {
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 15px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .footer_header {
+        background-color: #FFC300;  /* #FFC300 */
+    }
+    h1 {
+        position: relative;
+        bottom: 40px;
+        font-family: 'fonte';
+        font-size: 27px;
+        color: #333;
+        margin: 0px;
+    }
+    .barra {
+        color: #333;
+        font-weight: bolder;
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .cont_nav_but {
+        position: relative;
+        top: 30px;
+        padding: 5px;
+    }
+    .cont_nav_but > button {
+        font-family: 'fonte';
+        background-color: #FFC300;
+        color: #333;
+        border-radius: 10px;
+        border: none;
+        font-size: 14px;
+        width: 90px;
+        height: 30px;
+    }
+    .cont_nav_but > button:hover {
+        background-color: #FFC300;
+        box-shadow: 0.5px 0.5px 2px;
+        transition-duration: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+    .container_select {
+        padding: 10px 20px;
+        display: flex;
+        justify-content: end;
+    }
+    #select {
+        font-family: 'fonte';
+        background-color: #e0dede;
+        border-radius: 5px;
+        border-style: none;
+        border-bottom: 1px solid #0000004d;
+        box-shadow: 0.5px 0.5px 2px;
+        width: 190px;
+        padding: 15px;
+        font-size: 12px;
+    }
+    #select:hover {
+        background-color: #ddd;
+        border-bottom: 1px solid #FFC300;
+    }
+    div > select > .option {
+        background-color: #f3c40a;
+        font-size: 12px;
+    }
+
+    .container_principal {
+        display: flex;
+        gap: 2.5px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container_conteudo {
+        font-family: 'fonte';
+        background-color: #fff;
+        box-shadow: 1px 1px 3px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        width: 118px;
+        height: 200px;
+        margin-bottom: 5px;
+        text-align: end;
+    }
+    .img_produto {
+        background-color: white;
+        border-radius: 8px;
+        width: 118px;
+        height: 122px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+    }
+    .img_produto:hover {
+        z-index: 20;
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px #0000004d;
+        border: 1px solid black;
+    }
+    h2 {
+        text-align: start;
+        margin: 2px;
+        padding: 1px;
+        font-size: 11px;
+        color: #333;
+    }
+    .preco_ant {
+        font-size: 10px;
+        text-align: start;
+        margin: 5px 2px;
+        padding: 1px;
+        text-decoration: line-through;
+        color: #999;
+    }
+    .preco_novo {
+        text-align: start;
+        margin: 2px;
+        padding: 1px;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+    .bt_comprar {
+        font-family: 'fonte';
+        background-color: #FFC300;
+        border: none;
+        padding: 5px;
+        font-size: 10px;
+        font-weight:700;
+        cursor: pointer;
+        border-radius: 4px;
+        position: relative;
+        right: 2.5px;
+        bottom: 20px;
+    }
+    .bt_comprar:hover {
+        background-color: #f3c40a;
+        border: 0.1px solid #FFC300;
+    }
+    .bt_comprar:active {
+        background-color: #f3c40a;
+        border: 2px solid #FFC300;
+    }
+
+    footer {
+        font-family: 'fonte';
+        font-size: 10px;
+        text-align: center;
+        margin-top: auto;
+        background-color: #333;
+        border-top: 5px solid #FFC300;
+        color: #FFC300;
+    }
+
+    .texto {
+        font-family: 'fonte';
+        background-color: #ddd;
+        position: absolute;
+        /* top: 0px; */
+        left: 35px;
+
+        font-size: 15px;
+        padding: 10px;
+        box-shadow: 1px 1px 3px #FFC300;
+        width: 300px;
+    }
+}
+
+/* ====================CAPA TELA MEDIA==================== */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    @font-face {
+        font-family: 'fonte';
+        src: url(/imagens/Chicago.otf) format('opentype'),format('truetype');
+    }
+
+    html {
+        height: 100%;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f8f8f8;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    header {
+        background-color: #333;   
+    }
+    .cont_logo {   /* container logo */
+        display: flex;
+        justify-content: center;
+    }
+    .cont_logo img {
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .footer_header {
+        background-color: #FFC300;  /* #FFC300 */
+    }
+    h1 {
+        font-family: 'fonte';
+        font-size: 50px;
+        color: #333;
+        margin: 0px;
+    }
+    .barra {
+        color: #333;
+        font-weight: bolder;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .cont_nav_but {
+        position: relative;
+        top: 25px;
+        right: 30em;
+        display: flex;
+        justify-content: center;
+    }
+    .cont_nav_but > button {
+        font-family: 'fonte';
+        background-color: #FFC300;
+        color: #333;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+        width: 100px;
+        height: 50px;
+    }
+    .cont_nav_but > button:hover {
+        background-color: #FFC300;
+        box-shadow: 0.5px 0.5px 2px;
+        transition-duration: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+    .container_select {
+        padding: 10px 20px;
+        display: flex;
+        justify-content: end;
+    }
+    #select {
+        font-family: 'fonte';
+        background-color: rgb(224, 222, 222);
+        border-radius: 5px;
+        border-style: none;
+        border-bottom: 1px solid #0000004d;
+        box-shadow: 0.5px 0.5px 2px;
+        width: 400px;
+        padding: 15px;
+        font-size: 16px;
+    }
+    #select:hover {
+        background-color: #ddd;
+        border-bottom: 1px solid #FFC300;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .container_principal {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container_conteudo {
+        font-family: 'fonte';
+        background-color: #fff;
+        box-shadow: 1px 1px 3px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        width: 280px;
+        height: 410px;
+        text-align: end;
+    }
+    .img_produto {
+        background-color: white;
+        border-radius: 8px;
+        width: 280px;
+        height: 300px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+    }
+    .img_produto:hover {
+        z-index: 20;
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px #0000004d;
+        border: 1px solid black;
+    }
+    h2 {
+        text-align: start;
+        margin: 0px;
+        padding: 5px;
+        font-size: 18px;
+        color: #333;
+    }
+    .preco_ant {
+        font-size: 12px;
+        text-align: start;
+        margin: 5px;
+        text-decoration: line-through;
+        color: #999;
+    }
+    .preco_novo {
+        text-align: start;
+        margin: 5px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .bt_comprar {
+        font-family: 'fonte';
+        background-color: #FFC300;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        font-weight:700;
+        cursor: pointer;
+        border-radius: 4px;
+        position: relative;
+        right: 10px;
+        bottom: 40px;
+    }
+    .bt_comprar:hover {
+        background-color: #f3c40a;
+        border: 0.1px solid #FFC300;
+    }
+    .bt_comprar:active {
+        background-color: #f3c40a;
+        border: 2px solid #FFC300;
+    }
+
+    footer {
+        font-family: 'fonte';
+        margin-top: auto;
+        background-color: #333;
+        border-top: 5px solid #FFC300;
+        text-align: center;
+        color: #FFC300;
+    }
+
+    .texto {
+        position: absolute;
+        top: 30px;
+        left: 25px;
+        padding: 10px;
+        box-shadow: 1px 1px 3px #FFC300;
+        color: #ddd;
+        width: 400px;
+    }
+}
+
+/* ====================CAPA TELA GRANDE==================== */
+
+@media screen and (min-width: 992px) {
+    @font-face {
+        font-family: 'fonte';
+        src: url(/imagens/Chicago.otf) format('opentype'),format('truetype');
+    }
+
+    html {
+        height: 100%;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f8f8f8;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    header {
+        background-color: #333;   
+    }
+    .cont_logo {   /* container logo */
+        display: flex;
+        justify-content: center;
+    }
+    .cont_logo img {
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .footer_header {
+        background-color: #FFC300;  /* #FFC300 */
+    }
+    h1 {
+        font-family: 'fonte';
+        font-size: 50px;
+        color: #333;
+        margin: 0px;
+    }
+    .barra {
+        color: #333;
+        font-weight: bolder;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .cont_nav_but {
+        position: relative;
+        top: 25px;
+        right: 30em;
+        display: flex;
+        justify-content: center;
+    }
+    .cont_nav_but > button {
+        font-family: 'fonte';
+        background-color: #FFC300;
+        color: #333;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+        width: 100px;
+        height: 50px;
+    }
+    .cont_nav_but > button:hover {
+        background-color: #FFC300;
+        box-shadow: 0.5px 0.5px 2px;
+        transition-duration: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+    .container_select {
+        padding: 10px 20px;
+        display: flex;
+        justify-content: end;
+    }
+    #select {
+        font-family: 'fonte';
+        background-color: rgb(224, 222, 222);
+        border-radius: 5px;
+        border-style: none;
+        border-bottom: 1px solid #0000004d;
+        box-shadow: 0.5px 0.5px 2px;
+        width: 400px;
+        padding: 15px;
+        font-size: 16px;
+    }
+    #select:hover {
+        background-color: #ddd;
+        border-bottom: 1px solid #FFC300;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .container_principal {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container_conteudo {
+        font-family: 'fonte';
+        background-color: #fff;
+        box-shadow: 1px 1px 3px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        width: 280px;
+        height: 410px;
+        text-align: end;
+    }
+    .img_produto {
+        background-color: white;
+        border-radius: 8px;
+        width: 280px;
+        height: 300px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+    }
+    .img_produto:hover {
+        z-index: 20;
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px #0000004d;
+        border: 1px solid black;
+    }
+    h2 {
+        text-align: start;
+        margin: 0px;
+        padding: 5px;
+        font-size: 18px;
+        color: #333;
+    }
+    .preco_ant {
+        font-size: 12px;
+        text-align: start;
+        margin: 5px;
+        text-decoration: line-through;
+        color: #999;
+    }
+    .preco_novo {
+        text-align: start;
+        margin: 5px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .bt_comprar {
+        font-family: 'fonte';
+        background-color: #FFC300;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        font-weight:700;
+        cursor: pointer;
+        border-radius: 4px;
+        position: relative;
+        right: 10px;
+        bottom: 40px;
+    }
+    .bt_comprar:hover {
+        background-color: #f3c40a;
+        border: 0.1px solid #FFC300;
+    }
+    .bt_comprar:active {
+        background-color: #f3c40a;
+        border: 2px solid #FFC300;
+    }
+
+    footer {
+        font-family: 'fonte';
+        margin-top: auto;
+        background-color: #333;
+        border-top: 5px solid #FFC300;
+        text-align: center;
+        color: #FFC300;
+    }
+
+    .texto {
+        position: absolute;
+        top: 30px;
+        left: 25px;
+        padding: 10px;
+        box-shadow: 1px 1px 3px #FFC300;
+        color: #ddd;
+        width: 400px;
+    }
+}
