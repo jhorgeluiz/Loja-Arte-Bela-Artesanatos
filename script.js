@@ -1,4 +1,38 @@
 
+function CasaHobbit() {
+    // alert('Você será direcionado para o WhatsApp do proprietário!')
+    // let img = document.getElementsByTagName('img')
+    // let numero = '55085987150712'
+    // let mensagem = 'Olá Arte Bela, quero comprar! Casa Hobbit';
+    // let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`
+    // window.location.href = url
+    
+    alert('Você será direcionado para o WhatsApp do proprietário!');
+    
+    // Obtém o elemento da imagem pelo ID
+    let img = document.getElementById('img');
+    
+    // Pega o URL da imagem
+    let imgURL = img.src;
+    
+    // Número de telefone e mensagem
+    let numero = '55085987150712';
+    let mensagem = 'Olá Arte Bela, quero comprar! Casa Hobbit';
+    
+    // Inclui o URL da imagem na mensagem
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`;
+    
+    // Cria a URL do WhatsApp com a mensagem codificada
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`;
+    
+    // Redireciona o usuário para a URL do WhatsApp
+    window.location.href = url;
+    
+    
+}
+
+
+
 function valores_entrar() {
     let valores = document.getElementById('valores')
     let res = document.getElementById('res')
