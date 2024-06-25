@@ -1,34 +1,143 @@
 
 function CasaHobbit() {
-    // alert('Você será direcionado para o WhatsApp do proprietário!')
-    // let img = document.getElementsByTagName('img')
-    // let numero = '55085987150712'
-    // let mensagem = 'Olá Arte Bela, quero comprar! Casa Hobbit';
-    // let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`
-    // window.location.href = url
-    
-    alert('Você será direcionado para o WhatsApp do proprietário!');
-    
-    // Obtém o elemento da imagem pelo ID
-    let img = document.getElementById('img');
-    
-    // Pega o URL da imagem
-    let imgURL = img.src;
-    
-    // Número de telefone e mensagem
-    let numero = '55085987150712';
-    let mensagem = 'Olá Arte Bela, quero comprar! Casa Hobbit';
-    
-    // Inclui o URL da imagem na mensagem
-    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`;
-    
-    // Cria a URL do WhatsApp com a mensagem codificada
-    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`;
-    
-    // Redireciona o usuário para a URL do WhatsApp
-    window.location.href = url;
-    
-    
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img1 = document.getElementById('hobbit')
+    let imgURL = img1.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar a Casa Hobbit'
+    let mensagemcomImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemcomImagem)}`
+    window.location.href = url
+}
+function chaledoduende() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img2 = document.getElementById('chaledoduende')
+    let imgURL = img2.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar o Chalé do duende'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function Duendedaabumdancia() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img3 = document.getElementById('Duendeabundancia')
+    let imgURL = img3.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar o Duende da abundância'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function Duendedaprosperidade() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img4 = document.getElementById('Duendeprosperidade')
+    let imgURL = img4.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar o Duende da prosperidade'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function Mandrágora01() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img5 = document.getElementById('Mandragora01')
+    let imgURL = img5.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar a Mandrágora 01'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function Mandragora02() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img6 = document.getElementById('Mandragora02')
+    let imgURL = img6.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar a Mandrágora 02'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function Mandragora03() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img7 = document.getElementById('Mandragora02')
+    let imgURL = img7.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar a Mandrágora 03'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function Igrejinha() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img8 = document.getElementById('Igrejinha')
+    let imgURL = img8.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar a Igrejinha'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function CasaGnomo() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img9 = document.getElementById('CasaGnomo')
+    let imgURL = img9.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar a Casa do Gnomo'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function tulipaamarela() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img10 = document.getElementById('tulipaamarela')
+    let imgURL = img10.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar a Casa tulipa amarela'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function Casebre() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img11 = document.getElementById('Casebre')
+    let imgURL = img11.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar a Casebre'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function CasaHagrid() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img12 = document.getElementById('CasaHagrid')
+    let imgURL = img12.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar a Casa do Hagrid'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function Casebrecogumelo() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img13 = document.getElementById('Casebrecogumelo')
+    let imgURL = img13.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar o Casebre  cogumelo'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
+}
+function ChaleHobbit() {
+    alert('Você será direcionado para o WhatsApp do proprietário!')
+    let img14 = document.getElementById('ChaleHobbit')
+    let imgURL = img14.src
+    let numero = '55085987150712'
+    let mensagem = 'Olá Arte Bela, quero comprar o Chalé do Hobbit'
+    let mensagemComImagem = `${mensagem} Veja a imagem aqui: ${imgURL}`
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagemComImagem)}`
+    window.location.href = url
 }
 
 
