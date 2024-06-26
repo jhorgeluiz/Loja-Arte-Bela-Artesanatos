@@ -188,13 +188,18 @@
         color: #FFC300;
     }
 
+    .cont_texto {
+        display: flex;
+        justify-content: center;
+    }
+
     .texto {
+        
         font-family: 'fonte';
         background-color: #ddd;
         position: absolute;
         /* top: 0px; */
-        left: 35px;
-
+        /* left: 35px; */
         font-size: 15px;
         padding: 10px;
         box-shadow: 1px 1px 3px #FFC300;
@@ -232,33 +237,33 @@
     .cont_logo img {
         background-color: #fff;
         border-radius: 10px;
-        margin: 20px;
-        width: 150px;
-        height: 150px;
+        margin: 15px;
+        width: 100px;
+        height: 100px;
     }
 
     .footer_header {
         background-color: #FFC300;  /* #FFC300 */
     }
     h1 {
+        position: relative;
+        bottom: 40px;
         font-family: 'fonte';
-        font-size: 50px;
+        font-size: 27px;
         color: #333;
         margin: 0px;
     }
     .barra {
         color: #333;
         font-weight: bolder;
-        font-size: 20px;
+        font-size: 10px;
         margin: 10px;
     }
 
     .cont_nav_but {
         position: relative;
-        top: 25px;
-        right: 30em;
-        display: flex;
-        justify-content: center;
+        top: 30px;
+        padding: 5px;
     }
     .cont_nav_but > button {
         font-family: 'fonte';
@@ -266,9 +271,9 @@
         color: #333;
         border-radius: 10px;
         border: none;
-        font-size: 20px;
-        width: 100px;
-        height: 50px;
+        font-size: 14px;
+        width: 90px;
+        height: 30px;
     }
     .cont_nav_but > button:hover {
         background-color: #FFC300;
@@ -278,33 +283,33 @@
     }
 
     .container_select {
-        padding: 10px 20px;
+        padding: 15px 25px;
         display: flex;
         justify-content: end;
     }
     #select {
         font-family: 'fonte';
-        background-color: rgb(224, 222, 222);
+        background-color: #e0dede;
         border-radius: 5px;
         border-style: none;
         border-bottom: 1px solid #0000004d;
         box-shadow: 0.5px 0.5px 2px;
-        width: 400px;
+        width: 250px;
         padding: 15px;
-        font-size: 16px;
+        font-size: 15px;
     }
     #select:hover {
         background-color: #ddd;
         border-bottom: 1px solid #FFC300;
     }
-
-    main {
-        padding: 20px;
+    div > select > .option {
+        background-color: #f3c40a;
+        font-size: 12px;
     }
 
     .container_principal {
         display: flex;
-        gap: 20px;
+        gap: 8px;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -315,15 +320,16 @@
         box-shadow: 1px 1px 3px;
         border: 1px solid #ddd;
         border-radius: 8px;
-        width: 280px;
-        height: 410px;
+        width: 213px;
+        height: 330px;
+        margin-bottom: 5px;
         text-align: end;
     }
     .img_produto {
         background-color: white;
         border-radius: 8px;
-        width: 280px;
-        height: 300px;
+        width: 213px;
+        height: 220px;
         border-bottom: 1px solid #ddd;
         padding-bottom: 10px;
     }
@@ -335,22 +341,24 @@
     }
     h2 {
         text-align: start;
-        margin: 0px;
-        padding: 5px;
-        font-size: 18px;
+        margin: 2px;
+        padding: 2px;
+        font-size: 20px;
         color: #333;
     }
     .preco_ant {
-        font-size: 12px;
+        font-size: 15px;
         text-align: start;
-        margin: 5px;
+        margin: 5px 2px;
+        padding: 2px;
         text-decoration: line-through;
         color: #999;
     }
     .preco_novo {
         text-align: start;
-        margin: 5px;
-        font-size: 20px;
+        margin: 2px;
+        padding: 2px;
+        font-size: 18px;
         font-weight: bolder;
     }
 
@@ -358,14 +366,14 @@
         font-family: 'fonte';
         background-color: #FFC300;
         border: none;
-        padding: 10px;
-        font-size: 16px;
+        padding: 12px;
+        font-size: 15px;
         font-weight:700;
         cursor: pointer;
         border-radius: 4px;
         position: relative;
         right: 10px;
-        bottom: 40px;
+        bottom: 3em;
     }
     .bt_comprar:hover {
         background-color: #f3c40a;
@@ -378,21 +386,28 @@
 
     footer {
         font-family: 'fonte';
+        font-size: 10px;
+        text-align: center;
         margin-top: auto;
         background-color: #333;
         border-top: 5px solid #FFC300;
-        text-align: center;
         color: #FFC300;
     }
 
+    .cont_texto {
+        display: flex;
+        justify-content: center;
+    }
+
     .texto {
+        
+        font-family: 'fonte';
+        background-color: #ddd;
         position: absolute;
-        top: 30px;
-        left: 25px;
+        font-size: 15px;
         padding: 10px;
         box-shadow: 1px 1px 3px #FFC300;
-        color: #ddd;
-        width: 400px;
+        width: 300px;
     }
 }
 

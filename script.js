@@ -146,7 +146,7 @@ function valores_entrar() {
     let valores = document.getElementById('valores')
     let res = document.getElementById('res')
     if (valores == MouseEvent.mouseenter) {
-        res.innerHTML = `<p class="texto">Aqui no ARTE BELA ARTESANATOS, cada peça é criada com dedicação e paixão, refletindo a beleza e a singularidade do trabalho artesanal. Oferecemos produtos que não são apenas belos, mas também carregam uma história e uma alma própria.</p>`
+        res.innerHTML = `<div class="cont_texto"><p class="texto">Aqui no ARTE BELA ARTESANATOS, cada peça é criada com dedicação e paixão, refletindo a beleza e a singularidade do trabalho artesanal. Oferecemos produtos que não são apenas belos, mas também carregam uma história e uma alma própria.</p></div>`
     } 
 }
 function valores_sair() {
@@ -161,7 +161,7 @@ function missao_entrar() {
     let missao = document.getElementById('missao')
     let res = document.getElementById('res')
     if (missao == MouseEvent.mouseenter) {
-        res.innerHTML = `<p class="texto">Nossa missão é trazer a beleza do artesanato para sua vida cotidiana, oferecendo produtos que não só embelezam seu espaço, mas também trazem alegria e autenticidade. Acreditamos que cada peça artesanal tem o poder de conectar pessoas e contar histórias, e é isso que queremos compartilhar com você.</p>`
+        res.innerHTML = `<div class="cont_texto"><p class="texto">Nossa missão é trazer a beleza do artesanato para sua vida cotidiana, oferecendo produtos que não só embelezam seu espaço, mas também trazem alegria e autenticidade. Acreditamos que cada peça artesanal tem o poder de conectar pessoas e contar histórias, e é isso que queremos compartilhar com você.</p></div>`
     } 
 }
 function missao_sair() {
@@ -176,7 +176,7 @@ function produtos_entrar() {
     let produtos = document.getElementById('produtos')
     let res = document.getElementById('res')
     if (produtos == MouseEvent.mouseenter) {
-        res.innerHTML = `<p class="texto">Visite nossa coleção e descubra a peça perfeita que combina com seu estilo e personalidade. Desde peças    decorativas até utilitárias, cada item é uma obra  de arte criada com carinho.</p>`
+        res.innerHTML = `<div class="cont_texto"><p class="texto">Visite nossa coleção e descubra a peça perfeita que combina com seu estilo e personalidade. Desde peças    decorativas até utilitárias, cada item é uma obra  de arte criada com carinho.</p></div>`
     } 
 }
 function produtos_sair() {
