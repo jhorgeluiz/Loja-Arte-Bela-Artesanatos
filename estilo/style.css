@@ -451,7 +451,7 @@
     }
     h1 {
         font-family: 'fonte';
-        font-size: 50px;
+        font-size: 40px;
         color: #333;
         margin: 0px;
     }
@@ -465,7 +465,7 @@
     .cont_nav_but {
         position: relative;
         top: 25px;
-        right: 30em;
+        right: 27em;
         display: flex;
         justify-content: center;
     }
