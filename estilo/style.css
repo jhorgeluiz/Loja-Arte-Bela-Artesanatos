@@ -603,4 +603,22 @@
         color: #ddd;
         width: 400px;
     }
+    aside {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+    }
+    aside p {
+        color: black;
+        margin: 6px;
+        padding: 3px;
+        box-shadow: 0.3px 0.3px 0.3px 1px rgb(199, 198, 198);
+
+    }
+    aside span {
+        border-radius: 5px;
+        margin: 5px;
+        padding: 3px;
+    }
 }
